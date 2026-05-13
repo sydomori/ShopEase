@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0f127a;
+    color: #f8fafc;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    color: #f8fafc;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    color: #2167e9;
+}
+
+.cart-icon{
+    cursor: pointer
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #90b2e9;
+    color: black;
+}

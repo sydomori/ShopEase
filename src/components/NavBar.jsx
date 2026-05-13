@@ -2,6 +2,10 @@ function NavBar() {
     return (
         <nav className="navbar">
             <h1>ShopEase</h1>
+            <div className="search-bar">
+                <input type="text" placeholder="Search products..." />
+                <button onClick={() => console.log('Search clicked')}>Search</button>
+            </div>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/products">Products</a></li>
