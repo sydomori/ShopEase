@@ -1,21 +1,23 @@
 function ProductCard() {
   return (
     <div>
-      <div>
-        <img src="" alt="product-img" />
+      <div className="product-img-container">
+        <img className="product-img" src="" alt="product-img" />
       </div>
       <div>
-        <div>
-          <p></p>
-          <div>
-            <img src="" alt="star" />
-            <p></p>
+        <div className="product-category"></div>
+        <div className="product-header-container">
+          <p className="product-name"></p>
+          <div className="product-rating-container">
+            <div className="add-to-fav-container">
+              <img src="" alt="star" />
+            </div>
+            <p className="product-rating"></p>
           </div>
         </div>
-        <div></div>
-        <div>
-          <p></p>
-          <button type=""></button>
+        <div className="product-footer-container">
+          <p className="product-price"></p>
+          <button className="btn-primary add-to-cart" type=""></button>
         </div>
       </div>
     </div>
