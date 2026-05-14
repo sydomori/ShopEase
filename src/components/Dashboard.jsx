@@ -1,4 +1,3 @@
-import Navbar from "./NavBar";
 import ItemCard from "./ItemCard";
 import '../styles/Global.css';
 

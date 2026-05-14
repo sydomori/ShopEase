@@ -1,6 +1,7 @@
 import '../styles/NavBar.css';
 import AddProductForm from './addProductForm';
 
+
 function NavBar({onAddProduct}) {
     return (
         <nav className="navbar">
@@ -21,7 +22,7 @@ function SearchBar() {
     return (
         <div className="search-section">
             <input className='form-control searchBar' type="text" placeholder="Search products..." />
-            <button className='btn btn-primary' onClick={() => console.log('Search clicked')}>Search</button>
+            <button className='btn btn-primary'>Search</button>
         </div>
     )
 }
