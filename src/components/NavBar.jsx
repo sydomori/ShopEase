@@ -5,6 +5,7 @@ function NavBar() {
     return (
         <nav className="navbar">
             <div className="top-section">
+                <p>Welcome to</p>
                 <h1 className="logo">ShopEase</h1>
             </div>
 

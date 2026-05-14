@@ -1,8 +1,9 @@
 .navbar {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     padding:20px;
     background-color: #0f127a;
     color: #f8fafc;
@@ -10,14 +11,21 @@
 
 .top-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1200px;
 }
 
+.top-section > p {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
 .logo {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -51,3 +59,5 @@
   align-items: center;
   gap: 10px;
 }
+
+
