@@ -1,7 +1,7 @@
 import '../styles/NavBar.css';
 import AddProductForm from './addProductForm';
 
-function NavBar() {
+function NavBar({onAddProduct}) {
     return (
         <nav className="navbar">
             <div className="top-section">
@@ -11,7 +11,7 @@ function NavBar() {
 
             <div className="form-section d-flex flex-column gap-3">
                 <SearchBar />
-                <AddProductForm />
+                <AddProductForm onAddProduct={onAddProduct} />
             </div>
         </nav>
     )

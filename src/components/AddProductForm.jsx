@@ -6,18 +6,21 @@ function AddProductForm({onAddProduct}) {
     const [productName, setProductName] = useState('');
     const [price, setPrice] = useState('');
     const [imageUrl, setImageUrl] = useState('');
+    const [category, setCategory] = useState('');
 
     function handleSubmit(e) {
         e.preventDefault();
         const newProduct = {
             name: productName,
             price: price,
-            image: imageUrl
+            image: imageUrl,
+            category: category
         }
         onAddProduct(newProduct);
         setProductName('');
         setPrice('');
         setImageUrl('');
+        setCategory('');
     }
         
     return (
@@ -52,6 +55,16 @@ function AddProductForm({onAddProduct}) {
                     name="imageUrl"
                     value={imageUrl} 
                     onChange={(e) => setImageUrl(e.target.value)} 
+                    required 
+                />
+                <input 
+                    style={{width:'200px'}}
+                    className='form-control'
+                    type="text" 
+                    placeholder="Category" 
+                    name="category"
+                    value={category} 
+                    onChange={(e) => setCategory(e.target.value)} 
                     required 
                 />
                 <button className='btn btn-primary' type="submit">Add</button>
