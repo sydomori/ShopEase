@@ -1,22 +1,19 @@
 import '../styles/NavBar.css';
-import AddProductForm from './AddProductForm';
+import AddProductForm from './addProductForm';
 
 function NavBar() {
     return (
         <nav className="navbar">
             <div className="top-section">
-            <h1 className="logo">ShopEase</h1>
-            <div className="search-bar">
-                <input type="text" placeholder="Search products..." />
-                <button onClick={() => console.log('Search clicked')}>Search</button>
+                <p>Welcome to</p>
+                <h1 className="logo">ShopEase</h1>
             </div>
-            
-                <button className="cart-button" onClick={() => console.log('Cart clicked')}>
-                    View Cart
-                </button>
-            
-            </div>
-            <div className="form-section">
+
+            <div className="form-section d-flex flex-column gap-3">
+                <div className="search-section">
+                    <input className='form-control searchBar' type="text" placeholder="Search products..." />
+                    <button className='btn btn-primary' onClick={() => console.log('Search clicked')}>Search</button>
+                </div>
                 <AddProductForm />
             </div>
         </nav>
