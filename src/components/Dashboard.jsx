@@ -25,7 +25,6 @@ function Dashboard() {
     ]
   return (
     <div className="dashboard">
-      <Navbar />
       <h2>Explore Our Products</h2>
       <div className="item-grid">
         {items.map((item, index) => (

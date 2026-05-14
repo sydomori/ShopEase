@@ -10,13 +10,19 @@ function NavBar() {
             </div>
 
             <div className="form-section d-flex flex-column gap-3">
-                <div className="search-section">
-                    <input className='form-control searchBar' type="text" placeholder="Search products..." />
-                    <button className='btn btn-primary' onClick={() => console.log('Search clicked')}>Search</button>
-                </div>
+                <SearchBar />
                 <AddProductForm />
             </div>
         </nav>
+    )
+}
+
+function SearchBar() {
+    return (
+        <div className="search-section">
+            <input className='form-control searchBar' type="text" placeholder="Search products..." />
+            <button className='btn btn-primary' onClick={() => console.log('Search clicked')}>Search</button>
+        </div>
     )
 }
 
