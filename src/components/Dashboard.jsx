@@ -3,7 +3,7 @@ import ItemCard from "./ItemCard";
 import '../styles/Global.css';
 
 function Dashboard() {
-    const items = [
+    const [items , setItems] = useState([
         {
             name: 'Wireless Pro Headphones',
             price: '$199',
@@ -22,13 +22,29 @@ function Dashboard() {
             image: 'https://plus.unsplash.com/premium_photo-1670963025006-3b650025442c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FzdCUyMGlyb24lMjBza2lsbGV0fGVufDB8fDB8fHww'
         },
 
-    ]
+    ]);
+
+    const [searchTerm, setSearchTerm] = useState('');
+
+    function addItem(newItem) {
+        setItems([...items, newItem]);
+    }
+
+    function deleteItem(index) {
+        const updatedItems = items.filter((_, i) => i !== index);
+        setItems(updatedItems);
+    }
+
+    const filteredItems = items.filter(item =>
+        item.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    
   return (
     <div className="dashboard">
       <Navbar />
       <h2>Explore Our Products</h2>
       <div className="item-grid">
-        {items.map((item, index) => (
+        {filteredItems.map((item, index) => (
           <ItemCard key={index} item={item} />
         ))}
       </div>

@@ -1,5 +1,5 @@
 import '../styles/NavBar.css';
-import AddProductForm from './addProductForm';
+import AddProductForm from './AddProductForm';
 
 function NavBar() {
     return (
