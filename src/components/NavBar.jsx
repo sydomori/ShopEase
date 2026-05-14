@@ -1,3 +1,5 @@
+import React from 'react'
+import styles from '../styles/NavBar.modules.css';
 function NavBar() {
     return (
         <nav className="navbar">
@@ -12,8 +14,9 @@ function NavBar() {
                 <li><a href="/categories">Categories</a></li>
                 <li><a href="/cart">Cart</a></li>
                 <li><a href="/profile">My Profile</a></li>
-                <button onClick={() => console.log('Login clicked')}>Login</button>
-                <button onClick={() => console.log('Cart clicked')}> View Cart</button>
+                <button className="cart-button" onClick={() => console.log('Cart clicked')}>
+                    View Cart
+                </button>
             </ul>
         </nav>
     )

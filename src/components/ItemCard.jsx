@@ -1,3 +1,6 @@
+import React from 'react';
+import styles from '../styles/ItemCard.modules.css';
+
 function ItemCard({ item }) {
   return (
     <div className="item-card">

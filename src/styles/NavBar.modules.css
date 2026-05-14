@@ -23,8 +23,9 @@
     color: #2167e9;
 }
 
-.cart-icon{
-    cursor: pointer
+.cart-button {
+    cursor: pointer;
+    background-color: #2167e9;
 }
 
 .search-bar {
@@ -34,3 +35,4 @@
     background-color: #90b2e9;
     color: black;
 }
+

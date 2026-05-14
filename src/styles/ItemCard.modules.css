@@ -24,7 +24,7 @@
     margin: 0 0 12px;
 }
 
-item-card button {
+.item-card button {
     background-color: #2167e9;
     color: #a59d9d;
     border: none;
