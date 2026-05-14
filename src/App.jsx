@@ -1,30 +1,27 @@
 import React from "react";
-// Ensure these paths are exactly correct for your folder structure
 import ItemCard from "./components/ItemCard";
 import AddProductForm from "./components/AddProductForm";
-import "./App.css"; // This must be imported for styling to work
+import "./App.css";
 
 function App() {
   return (
     <div className="app-wrapper">
-      {/* Header Section */}
       <header className="app-header">
         <h1>Shop.ease</h1>
       </header>
 
       <main className="content-container">
-        {/* Section 1: Adding Products (matches the design you liked) */}
+        {/* Form Section */}
         <section className="form-section">
           <AddProductForm />
         </section>
 
         <hr className="section-divider" />
 
-        {/* Section 2: Displaying Items */}
+        {/* Inventory Section */}
         <section className="inventory-section">
           <h2>Available Products</h2>
           <div className="product-grid">
-            {/* You can duplicate this to see how multiple items look */}
             <ItemCard />
             <ItemCard />
           </div>
