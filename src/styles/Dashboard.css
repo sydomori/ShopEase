@@ -1,0 +1,13 @@
+.item-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.dashboard h2 {
+    text-align: center;
+    margin-top: 10px;
+}
