@@ -1,6 +1,6 @@
 import Navbar from "./NavBar";
 import ItemCard from "./ItemCard";
-import styles from '../styles/Global.modules.css';
+import '../styles/Global.css';
 
 function Dashboard() {
     const items = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/ItemCard.modules.css';
+import  '../styles/ItemCard.css';
 
 function ItemCard({ item }) {
   return (

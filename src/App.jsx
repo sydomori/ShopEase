@@ -1,4 +1,4 @@
-import NavBar from './components/NavBar'
+import React from 'react'
 import Dashboard from './components/Dashboard'
 import AddProductForm from './components/AddProductForm'
 import './App.css'
@@ -6,9 +6,7 @@ import './App.css'
 function App() {
     return (
         <div className="App">
-            <NavBar />
             <Dashboard />
-            <AddProductForm />
         </div>
     )
 }

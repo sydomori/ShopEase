@@ -1,14 +1,15 @@
-import React from 'react'
-import styles from '../styles/NavBar.modules.css';
+import '../styles/NavBar.css';
+import AddProductForm from './AddProductForm';
+
 function NavBar() {
     return (
         <nav className="navbar">
-            <h1>ShopEase</h1>
+            <h1 className="logo">ShopEase</h1>
             <div className="search-bar">
                 <input type="text" placeholder="Search products..." />
                 <button onClick={() => console.log('Search clicked')}>Search</button>
             </div>
-            <ul>
+            <ul className="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/products">Products</a></li>
                 <li><a href="/categories">Categories</a></li>
@@ -18,6 +19,9 @@ function NavBar() {
                     View Cart
                 </button>
             </ul>
+            <div className="form-section">
+                <AddProductForm />
+            </div>
         </nav>
     )
 }

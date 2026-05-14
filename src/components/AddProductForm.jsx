@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import '../styles/AddProductForm.css';
 
 function AddProductForm() {
     const [productName, setProductName] = useState('');
