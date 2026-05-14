@@ -1,1 +1,215 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Kids' Gardening Tools Set",
+            "price":27,
+            "category":"Automotive",
+            "image":"http://dummyimage.com/177x100.png/dddddd/000000"
+        },
+        {
+            "id":2,
+            "name":"Self-Watering Planter",
+            "price":72,
+            "category":"Computers",
+            "image":"http://dummyimage.com/165x100.png/ff4444/ffffff"
+        },
+        {
+            "id":3,
+            "name":"Frozen Vegetarian Pizza",
+            "price":55,
+            "category":"Toys",
+            "image":"http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+        },
+        {
+            "id":4,
+            "name":"Cocoa Powder",
+            "price":55,
+            "category":"Tools",
+            "image":"http://dummyimage.com/239x100.png/ff4444/ffffff"
+        },
+        {
+            "id":5,
+            "name":"Dark Chocolate Covered Raisins",
+            "price":92,
+            "category":"Jewelry",
+            "image":"http://dummyimage.com/235x100.png/ff4444/ffffff"
+        },
+        {
+            "id":6,
+            "name":"Smartphone Tripod with Remote",
+            "price":30,
+            "category":"Kids",
+            "image":"http://dummyimage.com/182x100.png/ff4444/ffffff"
+        },
+        {
+            "id":7,
+            "name":"Luxury Bathrobe",
+            "price":77,
+            "category":"Health",
+            "image":"http://dummyimage.com/209x100.png/dddddd/000000"
+        },
+        {
+            "id":8,
+            "name":"Travel Hair Straightener",
+            "price":1,
+            "category":"Industrial",
+            "image":"http://dummyimage.com/157x100.png/dddddd/000000"
+        },
+        {
+            "id":9,
+            "name":"Quinoa & Black Bean Salad",
+            "price":23,
+            "category":"Shoes",
+            "image":"http://dummyimage.com/170x100.png/5fa2dd/ffffff"
+        },
+        {
+            "id":10,
+            "name":"Cinnamon Roll Protein Bar",
+            "price":7,
+            "category":"Industrial",
+            "image":"http://dummyimage.com/213x100.png/cc0000/ffffff"
+        },
+        {
+            "id":11,
+            "name":"Electric Butter Churn",
+            "price":36,
+            "category":"Baby",
+            "image":"http://dummyimage.com/243x100.png/5fa2dd/ffffff"
+        },
+        {
+            "id":12,
+            "name":"Pepperoni Pizza Roll-Ups",
+            "price":66,
+            "category":"Books",
+            "image":"http://dummyimage.com/161x100.png/ff4444/ffffff"
+        },
+        {
+            "id":13,
+            "name":"Sooji (Semolina)",
+            "price":100,
+            "category":"Electronics",
+            "image":"http://dummyimage.com/107x100.png/5fa2dd/ffffff"
+        },
+        {
+            "id":14,
+            "name":"Personal Blender with Cups",
+            "price":90,
+            "category":"Computers",
+            "image":"http://dummyimage.com/157x100.png/cc0000/ffffff"
+        },
+        {
+            "id":15,
+            "name":"Jigsaw Puzzle",
+            "price":33,
+            "category":"Health",
+            "image":"http://dummyimage.com/125x100.png/ff4444/ffffff"
+        },
+        {
+            "id":16,
+            "name":"Cranberry Lime Sparkling Water",
+            "price":10,
+            "category":"Books",
+            "image":"http://dummyimage.com/230x100.png/ff4444/ffffff"
+        },
+        {
+            "id":17,
+            "name":"Children's Science Experiment Lab Kit",
+            "price":58,
+            "category":"Automotive",
+            "image":"http://dummyimage.com/230x100.png/dddddd/000000"
+        },
+        {
+            "id":18,
+            "name":"Almond Milk",
+            "price":45,
+            "category":"Tools",
+            "image":"http://dummyimage.com/194x100.png/ff4444/ffffff"
+        },
+        {
+            "id":19,
+            "name":"Oven Mitts",
+            "price":2,
+            "category":"Games",
+            "image":"http://dummyimage.com/206x100.png/dddddd/000000"
+        },
+        {
+            "id":20,
+            "name":"Infrared Thermometer Gun",
+            "price":29,
+            "category":"Baby",
+            "image":"http://dummyimage.com/225x100.png/5fa2dd/ffffff"
+        },
+        {
+            "id":21,
+            "name":"Electric Knife",
+            "price":67,
+            "category":"Garden",
+            "image":"http://dummyimage.com/103x100.png/cc0000/ffffff"
+        },
+        {
+            "id":22,
+            "name":"Vegetable Stir-Fry Kit",
+            "price":57,
+            "category":"Music",
+            "image":"http://dummyimage.com/159x100.png/ff4444/ffffff"
+        },
+        {
+            "id":23,
+            "name":"Fitness Tracker Band",
+            "price":62,
+            "category":"Industrial",
+            "image":"http://dummyimage.com/114x100.png/5fa2dd/ffffff"
+        },
+        {
+            "id":24,
+            "name":"Shredded Cheese",
+            "price":99,
+            "category":"Beauty",
+            "image":"http://dummyimage.com/150x100.png/cc0000/ffffff"
+        },
+        {
+            "id":25,
+            "name":"Wireless Gaming Mouse",
+            "price":19,
+            "category":"Kids",
+            "image":"http://dummyimage.com/240x100.png/5fa2dd/ffffff"
+        },
+        {
+            "id":26,
+            "name":"Board Game Storage",
+            "price":6,
+            "category":"Outdoors",
+            "image":"http://dummyimage.com/176x100.png/cc0000/ffffff"
+        },
+        {
+            "id":27,
+            "name":"Peanut Butter Chocolate Clusters",
+            "price":63,
+            "category":"Outdoors",
+            "image":"http://dummyimage.com/186x100.png/dddddd/000000"
+        },
+        {
+            "id":28,
+            "name":"Flavored Instant Oatmeal",
+            "price":64,
+            "category":"Books",
+            "image":"http://dummyimage.com/167x100.png/ff4444/ffffff"
+        },
+        {
+            "id":29,
+            "name":"Adjustable Stand for Tablets and Smartphones",
+            "price":35,
+            "category":"Movies",
+            "image":"http://dummyimage.com/193x100.png/dddddd/000000"
+        },
+        {
+            "id":30,
+            "name":"Eco-Friendly Beeswax Wraps",
+            "price":8,
+            "category":"Jewelry",
+            "image":"http://dummyimage.com/149x100.png/5fa2dd/ffffff"
+        }
+    ]
+}
 
