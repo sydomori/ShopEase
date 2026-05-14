@@ -1,7 +1,8 @@
-import React from "react";
-import ItemCard from "./components/ItemCard";
-import AddProductForm from "./components/AddProductForm";
-import "./App.css";
+import Dashboard from './components/Dashboard'
+import './App.css'
+import { useState } from 'react'
+import Navbar from './components/NavBar'
+import { useEffect } from 'react'
 
 function App() {
   return (
