@@ -1,29 +1,30 @@
 /* General Layout */
+/*
 body {
-  background-color: #e5e7eb; /* Light grey background for the whole page */
+  background-color: #e5e7eb; /* Light grey background for the whole page 
   color: #333;
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 20px;
 }
 
-/* The "Add Product" Form Section */
+/* The "Add Product" Form Section 
 .form-container {
-  background-color: #f4f7f6; /* Soft Grey background */
+  background-color: #f4f7f6; /* Soft Grey background 
   padding: 30px;
   border-radius: 20px;
   max-width: 500px;
   margin: 20px auto;
-  border: 1px solid #0056b3; /* Subtle Blue border */
+  border: 1px solid #0056b3; /* Subtle Blue border 
   box-shadow: 0 4px 15px rgba(0, 86, 179, 0.1);
 }
 
 .form-header h2 {
-  color: #0056b3; /* Blue heading */
+  color: #0056b3; /* Blue heading 
   margin-bottom: 5px;
 }
 
-/* Input Fields */
+/* Input Fields 
 input, select {
   padding: 12px;
   border: 1px solid #d1d5db;
@@ -34,14 +35,14 @@ input, select {
 
 input:focus {
   outline: none;
-  border-color: #0056b3; /* Blue focus ring */
+  border-color: #0056b3; /* Blue focus ring 
 }
 
-/* Primary Button (Blue) */
+/* Primary Button (Blue) 
 .add-button {
   width: 100%;
   padding: 15px;
-  background-color: #0056b3; /* Theme Blue */
+  background-color: #0056b3; /* Theme Blue 
   color: white;
   border: none;
   border-radius: 12px;
@@ -51,10 +52,10 @@ input:focus {
 }
 
 .add-button:hover {
-  background-color: #003d80; /* Darker Blue on hover */
+  background-color: #003d80; /* Darker Blue on hover 
 }
 
-/* Individual Item Cards */
+/* Individual Item Cards 
 .product-card {
   background-color: #fff;
   border: 1px solid #d1d5db;
@@ -71,7 +72,9 @@ input:focus {
 }
 
 .price {
-  color: #0056b3; /* Blue price tag */
+  color: #0056b3; /* Blue price tag 
   font-weight: bold;
   font-size: 1.2rem;
 }
+*/
+
