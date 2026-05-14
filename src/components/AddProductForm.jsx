@@ -11,15 +11,14 @@ function AddProductForm({onAddProduct}) {
     function handleSubmit(e) {
         e.preventDefault();
         const newProduct = {
-            name: productName,
+            title: productName,
             price: price,
-            image: imageUrl,
+            thumbnail: imageUrl,
             category: category
         }
         onAddProduct(newProduct);
         setProductName('');
         setPrice('');
-        setImageUrl('');
         setCategory('');
     }
         
