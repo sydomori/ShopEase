@@ -23,9 +23,11 @@ function AddProductForm() {
     
     return (
         <div>
-            <h2>Add New Product</h2>
-            <form onSubmit={handleSubmit}>
+            <h4>Add New Product</h4>
+            <form className='d-flex flex-row gap-3' onSubmit={handleSubmit}>
                 <input 
+                    style={{width:'200px'}}
+                    className='form-control'
                     type="text" 
                     placeholder="Product Name" 
                     value={productName} 
@@ -33,6 +35,8 @@ function AddProductForm() {
                     required 
                 />
                 <input 
+                    style={{width:'200px'}}
+                    className='form-control'
                     type="number" 
                     placeholder="Price" 
                     value={price} 
@@ -40,13 +44,15 @@ function AddProductForm() {
                     required 
                 />
                 <input 
+                    style={{width:'200px'}}
+                    className='form-control'
                     type="text" 
                     placeholder="Image URL" 
                     value={imageUrl} 
                     onChange={(e) => setImageUrl(e.target.value)} 
                     required 
                 />
-                <button type="submit">Add Product</button>
+                <button className='btn btn-primary' type="submit">Add</button>
             </form>
         </div>  
     )

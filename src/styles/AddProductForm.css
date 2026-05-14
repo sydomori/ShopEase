@@ -1,0 +1,13 @@
+.form-control{
+    height: 40px;
+    background-color: #f8f9fa;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #a9caea;
+    transform: scale(1.01);
+}
