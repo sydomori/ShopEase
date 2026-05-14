@@ -216,6 +216,13 @@
       "image": "http://dummyimage.com/177x100.png/dddddd/000000",
       "category": "Automotive",
       "id": "7Q6PPmuDVFo"
+    },
+    {
+      "name": "play station 5",
+      "price": "170.50",
+      "image": "http://dummyimage.com/177x100.png/dddddd/000000",
+      "category": "electronics",
+      "id": "MTD3Rq_dl5g"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
