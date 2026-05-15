@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/ItemCard.css";
 import { useState } from "react";
 
-function ItemCard({ id,title, price, thumbnail, category, onEditProduct }) {
+function ItemCard({ id,title, price, thumbnail, category, onEditProduct, onDeleteProduct }) {
    const [isEditing, setIsEditing] = useState(false);
    const [editedTitle, setEditedTitle] = useState(title);
    const [editedPrice, setEditedPrice] = useState(price);
@@ -26,7 +26,7 @@ function ItemCard({ id,title, price, thumbnail, category, onEditProduct }) {
             <p>{category}</p>
             <div className="button-grp">
               <button type="button" className="btn btn-primary" onClick={() => setIsEditing(true)}>Edit</button>
-              <button type="button" className="btn btn-danger" onClick={() => onEditProduct(id)}>Delete</button>
+              <button type="button" className="btn btn-danger" onClick={() => onDeleteProduct(id)}>Delete</button>
             </div>
           </div>
         )

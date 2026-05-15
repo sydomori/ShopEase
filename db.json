@@ -139,13 +139,6 @@
       "price": 4.99,
       "category": "groceries",
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp"
-    },
-    {
-      "title": "Kids' Gardening Tools Set",
-      "price": "22.00",
-      "thumbnail": "http://dummyimage.com/177x100.png/dddddd/000000",
-      "category": "electronics",
-      "id": "5WDJYCoNScQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
