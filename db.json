@@ -2,8 +2,8 @@
   "products": [
     {
       "id": "1",
-      "title": "Essence Mascara Lash Princess",
-      "price": 9.99,
+      "title": "Mascara Lash",
+      "price": "19.99",
       "category": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
     },

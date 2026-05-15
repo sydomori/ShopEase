@@ -12,7 +12,7 @@ function App() {
 
   function editProduct(id, updatedProduct){
     fetch(`${url}/${id}`,{
-      method: "PUT",
+      method: "PATCH",
       headers:{
         "Content-type": "application/json"
       },
@@ -75,7 +75,7 @@ function App() {
   return (
       <div className="App">
           <Navbar onAddProduct={addProduct} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-          <Dashboard products={filteredProducts} />
+          <Dashboard products={filteredProducts} onEditProduct={editProduct} />
       </div>
   )
 }
