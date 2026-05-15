@@ -19,6 +19,7 @@ function AddProductForm({onAddProduct}) {
         setProductName('');
         setPrice('');
         setCategory('');
+        setImageUrl('');
     }
         
     return (
