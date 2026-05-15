@@ -93,7 +93,7 @@ function App() {
   return (
       <div className="App">
           <Navbar onAddProduct={addProduct} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-          <Dashboard products={filteredProducts} onEditProduct={editProduct} />
+          <Dashboard products={filteredProducts} onEditProduct={editProduct} onDeleteProduct={deleteProduct} />
       </div>
   )
 }
