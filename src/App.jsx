@@ -10,6 +10,24 @@ function App() {
   const [products,setProducts] = useState([]);
   const [searchTerm,setSearchTerm] = useState("");
 
+  function deleteProduct(id){
+    fetch(`${url}/${id}`,{
+      method: "DELETE"
+    })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to delete product");
+      }
+      return response.json();
+    })
+    .then(() => {
+      setProducts((prevProducts) => prevProducts.filter((product) => product.id !== id))
+    })
+    .catch((error) => {
+      console.error("Error deleting product:", error)
+    })
+  }
+
   function editProduct(id, updatedProduct){
     fetch(`${url}/${id}`,{
       method: "PATCH",
