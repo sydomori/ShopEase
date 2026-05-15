@@ -15,7 +15,7 @@ function ProductList({products, onEditProduct, onDeleteProduct}) {
     return (
         <div className="item-grid">
             {products.map((product) => (
-                <ItemCard key={product.id} {...product} onEditProduct={onEditProduct} />
+                <ItemCard key={product.id} {...product} onEditProduct={onEditProduct} onDeleteProduct={onDeleteProduct} />
             ))}
         </div>
     );
