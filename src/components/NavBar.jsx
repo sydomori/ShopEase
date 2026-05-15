@@ -2,7 +2,7 @@ import '../styles/NavBar.css';
 import AddProductForm from './addProductForm';
 
 
-function NavBar({onAddProduct}) {
+function NavBar({onAddProduct, searchTerm, setSearchTerm}) {
     return (
         <nav className="navbar">
             <div className="top-section">
@@ -11,18 +11,17 @@ function NavBar({onAddProduct}) {
             </div>
 
             <div className="form-section d-flex flex-column gap-3">
-                <SearchBar />
+                <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
                 <AddProductForm onAddProduct={onAddProduct} />
             </div>
         </nav>
     )
 }
 
-function SearchBar() {
+function SearchBar({searchTerm, setSearchTerm}) {
     return (
         <div className="search-section">
-            <input className='form-control searchBar' type="text" placeholder="Search products..." />
-            <button className='btn btn-primary'>Search</button>
+            <input className='form-control searchBar' type="text" placeholder="Search products..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
         </div>
     )
 }

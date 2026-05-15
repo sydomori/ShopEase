@@ -8,6 +8,8 @@ import { useEffect } from 'react'
 function App() {
   const url = "http://localhost:6002/products";
   const [products,setProducts] = useState([]);
+  const [searchTerm,setSearchTerm] = useState("");
+
 
   function fetchProducts(){
     fetch(url)
@@ -43,10 +45,15 @@ function App() {
     fetchProducts()
   }, [])
   
+  const filteredProducts = products.filter((product) => 
+    product.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    product.category.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+  
   return (
       <div className="App">
-          <Navbar onAddProduct={addProduct} />
-          <Dashboard products={products} />
+          <Navbar onAddProduct={addProduct} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          <Dashboard products={filteredProducts} />
       </div>
   )
 }
