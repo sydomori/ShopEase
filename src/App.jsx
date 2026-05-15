@@ -8,6 +8,48 @@ import { useEffect } from 'react'
 function App() {
   const url = "http://localhost:6002/products";
   const [products,setProducts] = useState([]);
+  const [searchTerm,setSearchTerm] = useState("");
+
+  function deleteProduct(id){
+    fetch(`${url}/${id}`,{
+      method: "DELETE"
+    })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to delete product");
+      }
+      return response.json();
+    })
+    .then(() => {
+      setProducts((prevProducts) => prevProducts.filter((product) => product.id !== id))
+    })
+    .catch((error) => {
+      console.error("Error deleting product:", error)
+    })
+  }
+
+  function editProduct(id, updatedProduct){
+    fetch(`${url}/${id}`,{
+      method: "PATCH",
+      headers:{
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify(updatedProduct)
+    })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to update product");
+      }
+      return response.json();
+    })
+    .then((updatedProduct) => {
+      setProducts((prevProducts) => prevProducts.map((product) => product.id === id ? updatedProduct : product))
+    })
+    .catch((error) => {
+      console.error("Error updating product:", error)
+    })
+  }
+
 
   function fetchProducts(){
     fetch(url)
@@ -43,10 +85,15 @@ function App() {
     fetchProducts()
   }, [])
   
+  const filteredProducts = products.filter((product) => 
+    product.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    product.category.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+  
   return (
       <div className="App">
-          <Navbar onAddProduct={addProduct} />
-          <Dashboard products={products} />
+          <Navbar onAddProduct={addProduct} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          <Dashboard products={filteredProducts} onEditProduct={editProduct} onDeleteProduct={deleteProduct} />
       </div>
   )
 }
