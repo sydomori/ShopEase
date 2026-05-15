@@ -10,6 +10,28 @@ function App() {
   const [products,setProducts] = useState([]);
   const [searchTerm,setSearchTerm] = useState("");
 
+  function editProduct(id, updatedProduct){
+    fetch(`${url}/${id}`,{
+      method: "PUT",
+      headers:{
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify(updatedProduct)
+    })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to update product");
+      }
+      return response.json();
+    })
+    .then((updatedProduct) => {
+      setProducts((prevProducts) => prevProducts.map((product) => product.id === id ? updatedProduct : product))
+    })
+    .catch((error) => {
+      console.error("Error updating product:", error)
+    })
+  }
+
 
   function fetchProducts(){
     fetch(url)
