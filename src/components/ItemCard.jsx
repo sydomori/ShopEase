@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/ItemCard.css";
 
 function ItemCard({ title, price, thumbnail, category }) {
 

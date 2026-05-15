@@ -1,144 +1,152 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Essence Mascara Lash Princess",
       "price": 9.99,
       "category": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Eyeshadow Palette with Mirror",
       "price": 19.99,
       "category": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Powder Canister",
       "price": 14.99,
       "category": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Red Lipstick",
       "price": 12.99,
       "category": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Red Nail Polish",
       "price": 8.99,
       "category": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Calvin Klein CK One",
       "price": 49.99,
       "category": "fragrances",
       "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Chanel Coco Noir Eau De",
       "price": 129.99,
       "category": "fragrances",
       "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Dior J'adore",
       "price": 89.99,
       "category": "fragrances",
       "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Dolce Shine Eau de",
       "price": 69.99,
       "category": "fragrances",
       "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Gucci Bloom Eau de",
       "price": 79.99,
       "category": "fragrances",
       "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Annibale Colombo Bed",
       "price": 1899.99,
       "category": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Annibale Colombo Sofa",
       "price": 2499.99,
       "category": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Bedside Table African Cherry",
       "price": 299.99,
       "category": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Knoll Saarinen Executive Conference Chair",
       "price": 499.99,
       "category": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Wooden Bathroom Sink With Mirror",
       "price": 799.99,
       "category": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Apple",
       "price": 1.99,
       "category": "groceries",
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Beef Steak",
       "price": 12.99,
       "category": "groceries",
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Cat Food",
       "price": 8.99,
       "category": "groceries",
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Chicken Meat",
       "price": 9.99,
       "category": "groceries",
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Cooking Oil",
       "price": 4.99,
       "category": "groceries",
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp"
+    },
+    {
+      "title": "Kids' Gardening Tools Set",
+      "price": "22.00",
+      "thumbnail": "http://dummyimage.com/177x100.png/dddddd/000000",
+      "category": "electronics",
+      "id": "5WDJYCoNScQ"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
