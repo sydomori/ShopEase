@@ -9,6 +9,9 @@
     color: var(--text-primary);
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .top-section {
