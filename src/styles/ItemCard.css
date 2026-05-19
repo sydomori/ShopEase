@@ -1,5 +1,5 @@
 .item-card {
-    background-color: #a59d9d;
+    background-color: var(--stormy-teal);
     width: 250px;
     height: 100%;
     display: flex;
