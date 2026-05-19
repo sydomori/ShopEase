@@ -10,4 +10,9 @@
 .dashboard h2 {
     text-align: center;
     margin-top: 10px;
+    color: var(--text-primary);
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
