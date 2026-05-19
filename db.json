@@ -9,7 +9,7 @@
     },
     {
       "id": "2",
-      "title": "Eyeshadow Palette with Mirror",
+      "title": "Eyeshadow Palette",
       "price": 19.99,
       "category": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp"
@@ -93,7 +93,7 @@
     },
     {
       "id": "14",
-      "title": "Knoll Saarinen Executive Conference Chair",
+      "title": "Knoll Saarinen Conference Chair",
       "price": 499.99,
       "category": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"
