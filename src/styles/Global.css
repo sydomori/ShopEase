@@ -22,4 +22,7 @@
     --gradient-top-left: linear-gradient(225deg, #00b9aeff, #037171ff, #03312eff, #02c3bdff, #009f93ff);
     --gradient-bottom-left: linear-gradient(315deg, #00b9aeff, #037171ff, #03312eff, #02c3bdff, #009f93ff);
     --gradient-radial: radial-gradient(#00b9aeff, #037171ff, #03312eff, #02c3bdff, #009f93ff);   
+    --text-primary: #ffffff;
+    --text-secondary: #b8d8d6;
+    --text-muted: #7aa5a2;
 }
