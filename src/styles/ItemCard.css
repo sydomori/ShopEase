@@ -7,7 +7,7 @@
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    height: 450px;
+    height: 480px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -36,13 +36,11 @@
     margin: none;
     color: var(--text-primary);
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .item-card p {
     font-size: 17px;
-    color: var(--text-primary);
+    color: var(--text-secondary);
     margin:2px 0;
     line-height: 1.2;
 }
@@ -53,3 +51,16 @@
     gap: 10px;
     margin-top: auto;
 }
+
+.btn{
+    background: var(--light-sea-green);
+    border: none;
+    color: var(--text-primary);
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
